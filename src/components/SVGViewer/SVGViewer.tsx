@@ -77,6 +77,7 @@ export const SVGViewer = () => {
   return (
     <div className="main">
       <div className="controls">
+        {/* This component is used for controlling the color, rotation, and shape in the SVG` */}
         <SVGControls
           selectedColor={selectedColor}
           setSelectedColor={setSelectedColor}
@@ -86,6 +87,8 @@ export const SVGViewer = () => {
       </div>
 
       <div className="sidebar">
+        {/* This component is used for displaying and
+    interacting with a hierarchical tree of locations. */}
         <LocationTree
           data={locationsData}
           expandedNodes={expandedNodes}
