@@ -1,0 +1,60 @@
+.svg-controls {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+}
+
+.rotate-button {
+  padding: 8px 16px;
+  background-color: #f5f5f5;
+  color: #06656d;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  width: 100px;
+  &:hover {
+    background-color: #4ff2fa;
+  }
+}
+
+.color-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+  background-color: #f5f5f5;
+  color: #06656d;
+  font-weight: 600;
+  width: 100px;
+  &:hover {
+    border-color: #06656d;
+  }
+  &:focus {
+    border-color: #06656d;
+    box-shadow: 0 0 4px hsl(211, 100%, 50%);
+  }
+}
+
+.shape-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 13px;
+  outline: none;
+  background-color: #f5f5f5;
+  color: #06656d;
+  font-weight: 600;
+  width: 100px;
+  &:hover {
+    border-color: #888;
+  }
+  &:focus {
+    border-color: #06656d;
+    box-shadow: 0 0 4px hsl(211, 100%, 50%);
+  }
+}

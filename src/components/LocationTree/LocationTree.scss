@@ -1,0 +1,54 @@
+.wrapper {
+  margin-left: -20px;
+}
+
+.location-tree-node {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 10px 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.location-tree-node-icon {
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    background-color: #10edf8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.icon-placeholder {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  padding: 0 10px;
+}
+
+.location-tree-node-children {
+  margin-left: 20px;
+}
+
+.location-tree-child {
+  cursor: pointer;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 0 10px 20px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 13px;
+  font-weight: bold;
+  &:hover {
+    background-color: #10edf8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+}
